@@ -1,0 +1,385 @@
+/* FONT FAMILY */
+@import url('https://fonts.cdnfonts.com/css/foglihtenno07');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+body  {
+    font-family: 'Neuton', serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header .logo {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #e08701c2;
+    border: 1px solid rgb(100, 65, 0);
+}
+
+header .logo h1 {
+    font-family: 'Foglihtenno07';
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+header .logo p {
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+main {
+    
+    margin: 40px auto 0 auto;
+    width: 95%;
+}
+
+hr {
+    margin: 10px auto;
+}
+
+
+
+#container-1 {
+    padding: 20px;
+    width: 470px;
+    margin: 0 auto;
+    border: 1px solid rgb(100, 65, 0);
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.welcome h2 {
+    text-align: center;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0);
+    padding: 10px;
+    width: 100%;
+    font-family: 'Foglihtenno07', cursive;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.welcome .paragraf1 {
+    margin-top: 15px;
+    width: 98%;
+    text-align: justify;
+}
+
+.welcome p {
+    margin-top: 10px ;
+    width: 98%;
+    text-align: justify;
+}
+
+#container-2 {
+    padding: 20px;
+    width: 470px;
+    margin: 10px auto;
+    border: 1px solid rgb(100, 65, 0);
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.link  h2 {
+    text-align: center;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0);
+    padding: 10px;
+    width: 40%;
+    font-family: 'Foglihtenno07', cursive;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.link .paragraf1 {
+    margin-top: 15px;
+    width: 98%;
+    text-align: justify;
+}
+
+.link p {
+    margin-top: 10px ;
+    width: 98%;
+    text-align: justify;
+}
+
+.list-link {
+    width: 100%;
+    margin: 15px auto;    
+}
+
+.list-link button {
+    margin: 5px auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0) ;
+}
+
+.list-link button i {
+    float: left;
+    color: #fff;
+    margin: 10px 0px 10px 10px;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.list-link button h3 {
+    font-family: 'Foglihtenno07';
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+    text-align: center;
+    width: 100%;
+    margin: 17px 10px 10px 10px;
+}
+
+.list-link button:hover {
+    background-color: #a05a00;
+    cursor: pointer;
+}
+
+
+#container-3 {
+    padding: 20px;
+    width: 470px;
+    margin: 10px auto;
+    border: 1px solid rgb(100, 65, 0);
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.founder  h2 {
+    text-align: center;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0);
+    padding: 10px;
+    width: 50%;
+    font-family: 'Foglihtenno07', cursive;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.founder .paragraf1 {
+    margin-top: 20px;
+    width: 98%;
+    text-align: justify;
+}
+
+.founder p {
+    margin-top: 10px ;
+    width: 98%;
+    text-align: justify;
+}
+
+.founder img {
+    margin: 20px auto;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: 5px solid rgb(100, 65, 0);
+}
+
+.founder h4 {
+    color: #fff;
+    padding: 5px;
+    font-family: 'Foglihtenno07';
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0) ;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.founder .nama-founder {
+
+    text-align: center;
+    margin: 1px auto;
+}
+
+.founder .profesi-founder {
+    text-align: center;
+    font-size: 15px;
+    margin: 1px auto 10px auto;
+}
+
+
+
+#container-4 {
+    padding: 20px;
+    width: 470px;
+    margin: 10px auto;
+    border: 1px solid rgb(100, 65, 0);
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.sosmed-founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.sosmed-founder  h2 {
+    text-align: center;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0);
+    padding: 10px;
+    width: 80%;
+    font-family: 'Foglihtenno07', cursive;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.sosmed-founder .paragraf1 {
+    margin-top: 15px;
+    width: 98%;
+    text-align: justify;
+}
+
+.sosmed-founder p {
+    margin-top: 10px ;
+    width: 98%;
+    text-align: justify;
+}
+
+.list-sosmed-founder {
+    width: 100%;
+    margin: 15px auto;    
+}
+
+.list-sosmed-founder button {
+    margin: 5px auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0) ;
+}
+
+.list-sosmed-founder button i {
+    float: left;
+    color: #fff;
+    margin: 10px 0px 10px 10px;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.list-sosmed-founder button h3 {
+    font-family: 'Foglihtenno07';
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+    text-align: center;
+    width: 100%;
+    margin: 17px 10px 10px 10px;
+}
+
+.list-sosmed-founder button:hover {
+    background-color: #a05a00;
+    cursor: pointer;
+}
+
+/* END MAIN */
+
+/* FOOTER */
+
+footer {
+    margin: 20px auto;
+}
+
+/* END FOOTER */
