@@ -65,6 +65,7 @@ header .logo p {
 /* MAIN */
 
 main {
+    
     margin: 40px auto 0 auto;
     width: 95%;
 }
@@ -73,16 +74,17 @@ hr {
     margin: 10px auto;
 }
 
-#container-1, #container-2, #container-3, #container-4 {
+
+
+#container-1 {
     padding: 20px;
-    width: 100%;
-    max-width: 600px;
-    margin: 10px auto;
+    width: 470px;
+    margin: 0 auto;
     border: 1px solid rgb(100, 65, 0);
     background-color: rgba(255, 255, 255, 0.986);
 }
 
-.welcome, .link, .founder, .sosmed-founder {
+.welcome {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,8 +92,7 @@ hr {
     margin: 0px auto;
     width: 100%;
 }
-
-.welcome h2, .link h2, .founder h2, .sosmed-founder h2 {
+.welcome h2 {
     text-align: center;
     background-color: #e08701;
     border: 1px solid rgb(100, 65, 0);
@@ -107,26 +108,76 @@ hr {
          1px  1px 0 #a05a00;
 }
 
-.welcome p, .link p, .founder p, .sosmed-founder p {
-    margin-top: 10px;
+.welcome .paragraf1 {
+    margin-top: 15px;
     width: 98%;
     text-align: justify;
 }
 
-.list-link, .list-sosmed-founder {
-    width: 100%;
-    margin: 15px auto;
+.welcome p {
+    margin-top: 10px ;
+    width: 98%;
+    text-align: justify;
 }
 
-.list-link button, .list-sosmed-founder button {
+#container-2 {
+    padding: 20px;
+    width: 470px;
+    margin: 10px auto;
+    border: 1px solid rgb(100, 65, 0);
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.link  h2 {
+    text-align: center;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0);
+    padding: 10px;
+    width: 40%;
+    font-family: 'Foglihtenno07', cursive;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.link .paragraf1 {
+    margin-top: 15px;
+    width: 98%;
+    text-align: justify;
+}
+
+.link p {
+    margin-top: 10px ;
+    width: 98%;
+    text-align: justify;
+}
+
+.list-link {
+    width: 100%;
+    margin: 15px auto;    
+}
+
+.list-link button {
     margin: 5px auto;
     width: 100%;
     padding: 10px;
     background-color: #e08701;
-    border: 1px solid rgb(100, 65, 0);
+    border: 1px solid rgb(100, 65, 0) ;
 }
 
-.list-link button i, .list-sosmed-founder button i {
+.list-link button i {
     float: left;
     color: #fff;
     margin: 10px 0px 10px 10px;
@@ -137,7 +188,7 @@ hr {
          1px  1px 0 #a05a00;
 }
 
-.list-link button h3, .list-sosmed-founder button h3 {
+.list-link button h3 {
     font-family: 'Foglihtenno07';
     color: #fff;
     text-shadow:
@@ -150,17 +201,64 @@ hr {
     margin: 17px 10px 10px 10px;
 }
 
-.list-link button:hover, .list-sosmed-founder button:hover {
+.list-link button:hover {
     background-color: #a05a00;
     cursor: pointer;
+}
+
+
+#container-3 {
+    padding: 20px;
+    width: 470px;
+    margin: 10px auto;
+    border: 1px solid rgb(100, 65, 0);
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.founder  h2 {
+    text-align: center;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0);
+    padding: 10px;
+    width: 50%;
+    font-family: 'Foglihtenno07', cursive;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.founder .paragraf1 {
+    margin-top: 20px;
+    width: 98%;
+    text-align: justify;
+}
+
+.founder p {
+    margin-top: 10px ;
+    width: 98%;
+    text-align: justify;
 }
 
 .founder img {
     margin: 20px auto;
     border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
     border: 5px solid rgb(100, 65, 0);
-    max-width: 200px;
-    height: auto;
 }
 
 .founder h4 {
@@ -168,12 +266,112 @@ hr {
     padding: 5px;
     font-family: 'Foglihtenno07';
     background-color: #e08701;
-    border: 1px solid rgb(100, 65, 0);
+    border: 1px solid rgb(100, 65, 0) ;
     text-shadow:
         -1px -1px 0 #a05a00,
          1px -1px 0 #a05a00,
         -1px  1px 0 #a05a00,
          1px  1px 0 #a05a00;
+}
+
+.founder .nama-founder {
+
+    text-align: center;
+    margin: 1px auto;
+}
+
+.founder .profesi-founder {
+    text-align: center;
+    font-size: 15px;
+    margin: 1px auto 10px auto;
+}
+
+
+
+#container-4 {
+    padding: 20px;
+    width: 470px;
+    margin: 10px auto;
+    border: 1px solid rgb(100, 65, 0);
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.sosmed-founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.sosmed-founder  h2 {
+    text-align: center;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0);
+    padding: 10px;
+    width: 80%;
+    font-family: 'Foglihtenno07', cursive;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.sosmed-founder .paragraf1 {
+    margin-top: 15px;
+    width: 98%;
+    text-align: justify;
+}
+
+.sosmed-founder p {
+    margin-top: 10px ;
+    width: 98%;
+    text-align: justify;
+}
+
+.list-sosmed-founder {
+    width: 100%;
+    margin: 15px auto;    
+}
+
+.list-sosmed-founder button {
+    margin: 5px auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #e08701;
+    border: 1px solid rgb(100, 65, 0) ;
+}
+
+.list-sosmed-founder button i {
+    float: left;
+    color: #fff;
+    margin: 10px 0px 10px 10px;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+}
+
+.list-sosmed-founder button h3 {
+    font-family: 'Foglihtenno07';
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #a05a00,
+         1px -1px 0 #a05a00,
+        -1px  1px 0 #a05a00,
+         1px  1px 0 #a05a00;
+    text-align: center;
+    width: 100%;
+    margin: 17px 10px 10px 10px;
+}
+
+.list-sosmed-founder button:hover {
+    background-color: #a05a00;
+    cursor: pointer;
 }
 
 /* END MAIN */
@@ -182,49 +380,59 @@ hr {
 
 footer {
     margin: 20px auto;
-    text-align: center;
 }
 
 /* END FOOTER */
 
+/* RESPONSIVE */
+
 /* RESPONSIVE DESIGN */
 
+
 img {
-    max-width: 100%;
-    height: auto;
+max-width: 100%;
+height: auto;
 }
+
 
 @media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-
-    header .logo h1 {
-        font-size: 1.5rem;
-    }
-
-    .list-link button h3,
-    .list-sosmed-founder button h3 {
-        font-size: 1rem;
-        margin: 10px auto;
-    }
-
-    .founder h2, .link h2, .sosmed-founder h2 {
-        font-size: 1.1rem;
-    }
-
-    .founder img {
-        width: 120px;
-        height: auto;
-    }
+body {
+font-size: 14px;
 }
+
+
+header .logo h1 {
+font-size: 1.5rem;
+}
+
+
+.list-link button h3,
+.list-sosmed-founder button h3 {
+font-size: 1rem;
+margin: 10px auto;
+}
+
+
+.founder h2, .link h2, .sosmed-founder h2 {
+font-size: 1.1rem;
+}
+
+
+.founder img {
+width: 120px;
+height: auto;
+}
+}
+
 
 @media (min-width: 601px) and (max-width: 1024px) {
-    body {
-        font-size: 16px;
-    }
-    .list-link button h3,
-    .list-sosmed-founder button h3 {
-        font-size: 1.1rem;
-    }
+body {
+font-size: 16px;
 }
+.list-link button h3,
+.list-sosmed-founder button h3 {
+font-size: 1.1rem;
+}
+}
+
+/* END RESPONSIVE */
